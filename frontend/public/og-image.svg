@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+<defs>
+<radialGradient id="bg" cx="50%" cy="40%" r="65%">
+  <stop offset="0%" stop-color="#0a1140"/>
+  <stop offset="100%" stop-color="#000000"/>
+</radialGradient>
+<filter id="bigTextGlow" x="-50%" y="-50%" width="200%" height="200%">
+  <feGaussianBlur stdDeviation="6" result="b"/>
+  <feFlood flood-color="#5a82ff" flood-opacity="1"/>
+  <feComposite in2="b" operator="in" result="g"/>
+  <feMerge><feMergeNode in="g"/><feMergeNode in="SourceGraphic"/></feMerge>
+</filter>
+<filter id="medTextGlow" x="-50%" y="-50%" width="200%" height="200%">
+  <feGaussianBlur stdDeviation="3" result="b"/>
+  <feFlood flood-color="#5a82ff" flood-opacity="1"/>
+  <feComposite in2="b" operator="in" result="g"/>
+  <feMerge><feMergeNode in="g"/><feMergeNode in="SourceGraphic"/></feMerge>
+</filter>
+</defs>
+<rect width="1200" height="630" fill="url(#bg)"/>
+<circle cx="600" cy="220" r="280" fill="#1a3fff" opacity="0.12"/>
+<text x="600" y="200" text-anchor="middle" font-family="Georgia,serif" font-size="110" font-style="italic" font-weight="bold" fill="#ffffff" filter="url(#bigTextGlow)" letter-spacing="3">2027 Holder Tool</text>
+<text x="600" y="265" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="26" fill="#b8c5e8" letter-spacing="2">Project your D17 allocation across the 5 events</text>
+<rect x="100.0" y="360" width="317.3" height="130" rx="14" fill="#1a3fff" opacity="0.10" stroke="#5a82ff" stroke-opacity="0.4" stroke-width="1.5"/>
+<text x="258.7" y="410" text-anchor="middle" font-family="Georgia,serif" font-size="34" font-style="italic" font-weight="bold" fill="#ffffff" filter="url(#medTextGlow)">Lookup</text>
+<text x="258.7" y="455" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="15" fill="#b8c5e8">Any address → projected D17</text>
+<rect x="441.3" y="360" width="317.3" height="130" rx="14" fill="#1a3fff" opacity="0.10" stroke="#5a82ff" stroke-opacity="0.4" stroke-width="1.5"/>
+<text x="600.0" y="410" text-anchor="middle" font-family="Georgia,serif" font-size="34" font-style="italic" font-weight="bold" fill="#ffffff" filter="url(#medTextGlow)">Holders</text>
+<text x="600.0" y="455" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="15" fill="#b8c5e8">Live ranked table of every wallet</text>
+<rect x="782.7" y="360" width="317.3" height="130" rx="14" fill="#1a3fff" opacity="0.10" stroke="#5a82ff" stroke-opacity="0.4" stroke-width="1.5"/>
+<text x="941.3" y="410" text-anchor="middle" font-family="Georgia,serif" font-size="34" font-style="italic" font-weight="bold" fill="#ffffff" filter="url(#medTextGlow)">Simulator</text>
+<text x="941.3" y="455" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="15" fill="#b8c5e8">What-if hypothetical balance</text>
+<text x="600" y="572" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="20" fill="#b8c5e8" letter-spacing="1">Built by @__dr4c0__ &#183; Mechanics by @xbt2027</text>
+<text x="600" y="602" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="16" fill="#5a6896" letter-spacing="2">free &#183; open-source &#183; on-chain</text>
+</svg>
