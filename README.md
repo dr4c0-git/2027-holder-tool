@@ -22,8 +22,11 @@ See [`docs/mechanics.md`](./docs/mechanics.md) for the full reference and source
 
 ## Live
 
-- **App** : (to be set after first deploy)
-- **API** : (to be set after first deploy)
+- **App** : https://2027-holder-tool.pages.dev
+- **API** : https://two027-holder-tool-api.onrender.com (Swagger : `/docs`)
+
+The backend runs on a free tier with cold starts after ~15 min of
+inactivity ; the first request after a sleep can take 30-60 s.
 
 ## API endpoints
 
